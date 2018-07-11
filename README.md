@@ -1,14 +1,22 @@
-# demo1
+# egg-generator-postbird
+
+## 说明
+
+在 egg-init `simple` 的基础上对目录结构和一些内容进行重新组织和完善。
+
+## 脚手架变动部分
+
+- 使用 `egg-router-plus` 进行路由控制，增加 `./app/router` 文件夹存放路由文件
+- 为 `app/public` 文件夹增加 `css/js/img/upload` 等文件夹，并默认生成 `app.css/app.js` 文件，同时附带 `bootstrap V4`（jquery-3.2.1） 的相关依赖。
+- 完善 `egg-view-nunjucks` 的模板，并且附带 nunjucks 的模板继承布局。
+- 去掉了 `eslint` ，默认不进行风格检查。
 
 
+## 开发和部署
 
-## QuickStart
+![./app/public/img/demo.jpg](./app/public/img/demo.jpg)
 
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
+### 本地开发
 
 ```bash
 $ npm i
@@ -16,18 +24,14 @@ $ npm run dev
 $ open http://localhost:7001/
 ```
 
-### Deploy
+### 部署
 
 ```bash
 $ npm start
 $ npm stop
 ```
 
-### npm scripts
+## License
 
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+MIT
 
-
-[egg]: https://eggjs.org
