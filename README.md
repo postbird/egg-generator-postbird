@@ -14,7 +14,7 @@
 
 ## 开发和部署
 
-![./app/public/img/demo.jpg](./app/public/img/demo.jpg)
+![./app/public/img/demo.jpg](./app/public/img/example.jpg)
 
 ### 克隆项目
 
