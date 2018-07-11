@@ -16,6 +16,18 @@
 
 ![./app/public/img/demo.jpg](./app/public/img/demo.jpg)
 
+### 克隆项目
+
+```bash
+git clone https://github.com/postbird/egg-generator-postbird.git
+```
+### 安装依赖
+
+```bash
+yarn install
+# npm install 
+```
+
 ### 本地开发
 
 ```bash
